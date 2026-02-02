@@ -1,0 +1,53 @@
+// ===== MEDIA QUERIES =====
+@mixin mobile {
+  @media (max-width: #{$mobile - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin wide {
+  @media (min-width: $wide) {
+    @content;
+  }
+}
+
+// ===== FLEXBOX =====
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// ===== TRANSITIONS =====
+@mixin transition($property: all) {
+  transition: $property $transition-speed $transition-timing;
+}
+
+// ===== OMBRES =====
+@mixin box-shadow($size: md) {
+  @if $size == sm {
+    box-shadow: $shadow-sm;
+  } @else if $size == lg {
+    box-shadow: $shadow-lg;
+  } @else {
+    box-shadow: $shadow-md;
+  }
+}
