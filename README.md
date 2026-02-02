@@ -25,7 +25,7 @@ Instructions détaillées à venir...
 
 ## 👥 Auteur
 
-Votre Nom - Projet formation Développeur Web
+zacken-source - Projet formation Développeur Web
 
 ## 📄 Licence
 
