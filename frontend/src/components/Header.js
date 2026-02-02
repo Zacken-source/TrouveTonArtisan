@@ -29,7 +29,7 @@ function Header() {
         <Container>
           <Navbar.Brand as={Link} to="/" className="fw-bold">
             <img
-              src="/logo-trouve-ton-artisan.png"
+              src="../logo-trouve-ton-artisan.png"
               alt="Trouve ton artisan"
               height="50"
               className="d-inline-block align-top"
@@ -38,7 +38,6 @@ function Header() {
                 e.target.nextSibling.style.display = 'inline';
               }}
             />
-            <span style={{ display: 'none' }}>Trouve ton artisan</span>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="navbar-nav" aria-label="Menu de navigation" />
