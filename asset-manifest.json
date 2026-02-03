@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TrouveTonArtisan/static/css/main.8b81b9f6.css",
+    "main.js": "/TrouveTonArtisan/static/js/main.14895470.js",
+    "index.html": "/TrouveTonArtisan/index.html",
+    "main.8b81b9f6.css.map": "/TrouveTonArtisan/static/css/main.8b81b9f6.css.map",
+    "main.14895470.js.map": "/TrouveTonArtisan/static/js/main.14895470.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b81b9f6.css",
+    "static/js/main.14895470.js"
+  ]
+}
